@@ -1,8 +1,7 @@
 <script>
   import Counter from './Counter.svelte';
+  import Input from './Input.svelte';
+  const commonProps = { maxCounter: 5 };
 </script>
 
-<Counter initialCounter={2} />
-<Counter initialCounter={10} />
-<Counter initialCounter={100} />
-<span>Tenemos counters aqui</span>
+<Input />
