@@ -14,4 +14,12 @@
   }
 </script>
 
+<style>
+  input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+
 <input {value} on:input={handleInput} type="text" />
